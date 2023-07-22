@@ -10,8 +10,6 @@ Table5<-merge(Table3,Table4)
 str(Table5)
 
 
-
-
 ipl_data <- read.csv(file.choose(), header=T)
 head(ipl_data)
 dim(ipl_data)
